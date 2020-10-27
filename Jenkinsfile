@@ -18,5 +18,11 @@ pipeline {
                 bat "docker build -t safik1/calculator ."
             }
             }
+
+        stage("Docker Push") {
+                    steps {
+                        bat "docker push safik1/calculator"
+                    }
+                    }
 }
 }
