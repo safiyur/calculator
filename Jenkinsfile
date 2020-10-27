@@ -21,6 +21,7 @@ pipeline {
 
         stage("Docker Push") {
                     steps {
+                        bat "docker login -u safik1 -p Safrah@165"
                         bat "docker push safik1/calculator"
                     }
                     }
