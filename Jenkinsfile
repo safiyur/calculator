@@ -31,5 +31,11 @@ pipeline {
                         bat "docker run -d --rm -p 8765:8080 --name calculator safik1/calculator"
                          }
                     }
+					
+		post {
+                    always {
+                        bat "docker stop calculator"
+                         }
+                    }
 }
 }
