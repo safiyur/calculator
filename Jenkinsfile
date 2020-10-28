@@ -25,5 +25,11 @@ pipeline {
                         bat "docker push safik1/calculator"
                     }
                     }
+					
+		stage("Deploy to Staging") {
+                    steps {
+                        bat "docker run -d --rm -p 8765:8080 --name calculator safik1/calculator"
+                         }
+                    }
 }
 }
