@@ -32,8 +32,8 @@ pipeline {
                          }
                     }
 					
-		post {
-                    always {
+		stage ("cleanup") {
+                    steps {
                         bat "docker stop calculator"
                          }
                     }
