@@ -1,3 +1,3 @@
 @Library('commonlib') _
 
-new main()
+main()
