@@ -1,3 +1,11 @@
 @Library('commonlib') _
 
-main()
+//main()
+node
+    {
+    stage("Compile") {
+        steps {
+            bat "./gradlew compileJava"
+        }
+    }
+    }
