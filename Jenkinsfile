@@ -1,3 +1,3 @@
-@Library('commonlib') _
+#!groovy
 
-main 'jen'
+main()
