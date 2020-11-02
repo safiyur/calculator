@@ -1,3 +1,6 @@
-main()
+node
+{
+main
+}
 
 
