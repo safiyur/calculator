@@ -1,1 +1,3 @@
+#!groovy
+
 main()
