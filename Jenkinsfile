@@ -1,6 +1,1 @@
-node('master')
-        {
-            stage("compile") {
-            bat "./gradlew compileJava"
-        }
-    }
+main 'dev'
