@@ -1,6 +1,3 @@
-#!groovy
+#!/usr/bin/env groovy
 
-node
-        {
-            main()
-        }
+main()
